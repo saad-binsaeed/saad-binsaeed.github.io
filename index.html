@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saad Bin Saeed — Python Developer</title>
+<meta name="description" content="Saad Bin Saeed — BS Computer Science student in Lahore, Pakistan, building practical Python tools and small CRUD systems.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-orbs" aria-hidden="true">
+  <span class="orb orb-1"></span>
+  <span class="orb orb-2"></span>
+  <span class="orb orb-3"></span>
+</div>
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">
+      <img class="nav-avatar" src="profile.jpg" alt="" onerror="this.style.display='none'">
+      <span class="nav-prompt"></span>saad-binsaeed
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+      <a href="#skills">skills</a>
+      <a href="#education">education</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <a class="nav-cta" href="#contact">
+      <span class="status-dot" aria-hidden="true"></span>
+      Open to work
+    </a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="bento hero-grid">
+
+      <div class="card card-terminal" data-reveal data-tilt>
+        <div class="terminal-bar">
+          <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+          <span class="terminal-title">Saad-Bin-Saeed</span>
+        </div>
+        <div class="terminal-body" id="terminal-body" aria-live="polite"></div>
+      </div>
+
+      <div class="card card-intro" data-reveal>
+        <div class="photo-frame">
+          <img class="photo-img" src="profile.jpg" alt="Saad Bin Saeed" onerror="this.style.display='none';this.parentElement.classList.add('photo-fallback')">
+          <span class="photo-initials" aria-hidden="true">SS</span>
+        </div>
+        <p class="eyebrow">Python Developer | BS Computer Science Student | Building Practical Software Solutions</p>
+        <h1 class="hero-name">Saad&nbsp;Bin&nbsp;Saeed</h1>
+        <p class="hero-tagline">Hi, I'm Saad Bin Saeed, a passionate Python Developer and Computer Science student focused on building practical, real-world applications through clean code, problem-solving, and continuous learning.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="https://github.com/saad-binsaeed" target="_blank" rel="noopener">
+            <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="card card-location" data-reveal>
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.3"/></svg>
+        <span>Lahore, Punjab, Pakistan</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats" aria-label="Quick stats">
+    <div class="bento stats-grid">
+      <div class="card stat-card" data-reveal>
+        <span class="stat-number" data-count="4" data-pad="2">00</span>
+        <span class="stat-label">semesters completed<br>BS Computer Science</span>
+      </div>
+      <div class="card stat-card" data-reveal>
+        <span class="stat-number" data-count="5" data-pad="2">00</span>
+        <span class="stat-label">projects shipped<br>and pushed to GitHub</span>
+      </div>
+      <div class="card stat-card" data-reveal>
+        <span class="stat-number" data-count="5" data-pad="2">00</span>
+        <span class="stat-label">certificates earned<br>across Python, web &amp; data</span>
+      </div>
+      <div class="card stat-card" data-reveal>
+        <span class="stat-number" data-count="1" data-pad="2">00</span>
+        <span class="stat-label">language of choice<br>Python, daily driver</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="bento about-grid">
+      <div class="card card-about-photo" data-reveal>
+        <div class="about-photo-frame">
+          <img class="about-photo-img" src="profile.jpg" alt="Saad Bin Saeed" onerror="this.style.display='none';this.parentElement.classList.add('photo-fallback')">
+          <span class="photo-initials" aria-hidden="true">SS</span>
+        </div>
+      </div>
+      <div class="card card-about" data-reveal>
+        <p class="eyebrow">About Me:</p>
+        <p class="about-text">
+          I'm a BS Computer Science student in Lahore, four semesters in, with a clear pull toward Python and software engineering.
+          Most of what I know, I've learned by building — working through object-oriented design, data structures and basic database
+          work one small project at a time. I like code that does something concrete: a file gets organized, a city's weather shows up
+          on screen, a record gets saved to a CSV. Right now I'm looking for my first role as a Python developer at a software house
+          where I can keep building like that, just with higher stakes and better feedback.
+        </p>
+      </div>
+      <div class="card card-focus" data-reveal>
+        <p class="eyebrow">focus.json</p>
+        <ul class="focus-list">
+          <li><span>core</span>Python &amp; OOP fundamentals</li>
+          <li><span>data</span>CRUD, CSV &amp; JSON handling</li>
+          <li><span>web</span>API integration</li>
+          <li><span>next</span>data science &amp; analytics</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section-head">
+      <p class="eyebrow">My Projects:</p>
+      <h2>Things I've built</h2>
+    </div>
+
+    <div class="bento projects-grid">
+
+      <article class="card project-card project-card--lg" data-reveal data-tilt>
+        <div class="project-top">
+          <span class="file-tag">.py</span>
+          <a class="project-link" href="https://github.com/saad-binsaeed/banking-management-system" target="_blank" rel="noopener" aria-label="View Banking Management System on GitHub">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+        </div>
+        <h3>Banking Management System</h3>
+        <p>A console-based banking simulator covering core operations — opening accounts, deposits, withdrawals and balance checks — built around clean CRUD logic and structured data handling.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">CRUD</span>
+          <span class="tag">OOP</span>
+        </div>
+      </article>
+
+      <article class="card project-card" data-reveal data-tilt>
+        <div class="project-top">
+          <span class="file-tag">.html</span>
+          <a class="project-link" href="https://github.com/saad-binsaeed/Professional-Weather-App" target="_blank" rel="noopener" aria-label="View Professional Weather App on GitHub">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+        </div>
+        <h3>Professional Weather App</h3>
+        <p>Real-time weather lookup by city using the OpenWeather API, with temperature, humidity, wind and a responsive glassmorphism UI plus error handling for bad input.</p>
+        <div class="tag-row">
+          <span class="tag">HTML/CSS/JS</span>
+          <span class="tag">REST API</span>
+        </div>
+      </article>
+
+      <article class="card project-card" data-reveal data-tilt>
+        <div class="project-top">
+          <span class="file-tag">.py</span>
+          <a class="project-link" href="https://github.com/saad-binsaeed/synent-task03-To-Do-List-Saad-Bin-Saeed" target="_blank" rel="noopener" aria-label="View To-Do List App on GitHub">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+        </div>
+        <h3>To-Do List App</h3>
+        <p>A task manager built with core Python data structures and functions — add, complete and remove tasks with a focus on clean, readable logic.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">Data Structures</span>
+        </div>
+      </article>
+
+      <article class="card project-card" data-reveal data-tilt>
+        <div class="project-top">
+          <span class="file-tag">.py</span>
+          <a class="project-link" href="https://github.com/saad-binsaeed/synent-task02-Simple-Calculator-Saad-Bin-Saeed" target="_blank" rel="noopener" aria-label="View Simple Calculator on GitHub">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+        </div>
+        <h3>Simple Calculator</h3>
+        <p>A calculator app with proper input validation and exception handling, built to fail gracefully instead of crashing on bad input.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">Error Handling</span>
+        </div>
+      </article>
+
+      <article class="card project-card" data-reveal data-tilt>
+        <div class="project-top">
+          <span class="file-tag">.py</span>
+          <a class="project-link" href="https://github.com/saad-binsaeed/synent-task01-number-guess-game-Saad-Bin-Saeed" target="_blank" rel="noopener" aria-label="View Number Guess Game on GitHub">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+        </div>
+        <h3>Number Guess Game</h3>
+        <p>A command-line guessing game using Python's random module, with simple logic for hints, attempt tracking and replayability.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">random</span>
+        </div>
+      </article>
+
+      <a class="card project-card project-card--ghost" href="https://github.com/saad-binsaeed?tab=repositories" target="_blank" rel="noopener" data-reveal>
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 5v14M5 12h14"/></svg>
+        <span>More on GitHub</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="bento">
+      <div class="card card-skills" data-reveal>
+        <p class="eyebrow">My Skills :</p>
+        <div class="skills-grid">
+
+          <div class="skill-group">
+            <h4>Language &amp; core</h4>
+            <ul>
+              <li>Python</li>
+              <li>Object-Oriented Programming</li>
+              <li>Data Structures</li>
+              <li>Exception Handling</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h4>Data &amp; files</h4>
+            <ul>
+              <li>CSV / JSON Handling</li>
+              <li>CRUD Operations</li>
+              <li>Data Management</li>
+              <li>OS &amp; Shutil Modules</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h4>Integration</h4>
+            <ul>
+              <li>API Integration</li>
+              <li>Automation Scripting</li>
+              <li>Input Validation</li>
+              <li>Debugging &amp; Troubleshooting</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h4>Tooling</h4>
+            <ul>
+              <li>Git &amp; GitHub</li>
+              <li>VS Code</li>
+              <li>Version Control Basics</li>
+              <li>Problem Solving</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION + CERTS -->
+  <section class="education" id="education">
+    <div class="bento education-grid">
+
+      <div class="card card-edu" data-reveal>
+        <p class="eyebrow">Education :</p>
+        <ol class="timeline">
+          <li>
+            <span class="timeline-year">2024 — Present</span>
+            <span class="timeline-title">BS Computer Science</span>
+            <span class="timeline-sub">4 semesters completed</span>
+          </li>
+          <li>
+            <span class="timeline-year">2024</span>
+            <span class="timeline-title">Intermediate — FSc Pre-Engineering</span>
+          </li>
+          <li>
+            <span class="timeline-year">2022</span>
+            <span class="timeline-title">Matriculation — Computer Science</span>
+          </li>
+        </ol>
+      </div>
+
+      <div class="card card-certs" data-reveal>
+        <p class="eyebrow">My Certifications :</p>
+        <ul class="cert-list">
+          <li><span class="cert-dot"></span>Python Programming — CORVIT</li>
+          <li><span class="cert-dot"></span>Data Science &amp; Analytics — HP LIFE</li>
+          <li><span class="cert-dot"></span>Web Development — CORVIT</li>
+          <li><span class="cert-dot"></span>English Language — BETS</li>
+          <li><span class="cert-dot"></span>Shopify E-Commerce — PNY Trainings</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="bento">
+      <div class="card card-contact" data-reveal>
+        <p class="eyebrow">Contact Me</p>
+        <h2>Let's build something.</h2>
+        <p class="contact-sub">Looking for an entry-level Python developer role, freelance work, or just want to talk about a project — my inbox is open.</p>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:saadbinsaeed.official@gmail.com">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg>
+            saadbinsaeed.official@gmail.com
+          </a>
+          <a class="contact-link" href="tel:+923111187179">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.78.63 2.62a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.46-1.2a2 2 0 0 1 2.11-.45c.84.3 1.72.51 2.62.63A2 2 0 0 1 22 16.92Z"/></svg>
+            +92 311 1187179
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/saad-bin-saeed" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.15 1.45-2.15 2.94v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+            linkedin.com/in/saad-bin-saeed
+          </a>
+          <a class="contact-link" href="https://github.com/saad-binsaeed" target="_blank" rel="noopener">
+            <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+            github.com/saad-binsaeed
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Designed &amp; built by Saad Bin Saeed · <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
